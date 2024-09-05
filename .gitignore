@@ -1,0 +1,34 @@
+# Ignore environment variable files
+# env files
+.env
+.env.*
+.env*.local
+
+# Ignore virtual environment directories
+venv/
+.env/
+.venv/
+
+# Ignore macOS system files
+.DS_Store
+
+.venv/
+
+# Ignore Python cache directories
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+instance/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*.egg-info/
+
+preloaded_model/
+
