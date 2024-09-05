@@ -1,7 +1,9 @@
 ### Development
 
-**localhost:5000**
+**localhost:6969**
 
 ### Production
 
 **localhost:3001**
+
+*Please note that all data are **public** for read*
