@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 def create_app():
    
-    env = os.getenv('FLASK_ENV', 'development')
+    env = os.getenv('FLASK_ENV', 'production')
     dotenv_path = f'.env.{env}'
 
     load_dotenv(dotenv_path)
